@@ -20,6 +20,6 @@ jobs:
                 name: Run command on terminal
                 run: echo "looks like every think is correct!"
             -
-                name: Date and time
+                name: Date and times
                 run: date
             
