@@ -19,3 +19,7 @@ jobs:
             -
                 name: Run command on terminal
                 run: echo "looks like every think is correct!"
+            -
+                name: check date
+                run: date
+            
