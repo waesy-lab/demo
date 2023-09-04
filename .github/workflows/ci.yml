@@ -1,0 +1,21 @@
+name: CI demo
+
+on:
+    push: 
+        branches: [ main ]
+    pull_request: 
+        branches: [ main ]
+    
+    workflow_dispatch: 
+    
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - 
+                name: Check-out
+                uses: actions/checkout@v3
+            -
+                name: Run command on terminal
+                run: echo "looks like every think is correct!"
